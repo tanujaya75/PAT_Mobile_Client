@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="252dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:layout_margin="10dp"
+         />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="248dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+        android:text="Log In"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/Register"
+        android:layout_width="247dp"
+        android:layout_height="48dp"
+        android:text="Register"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
